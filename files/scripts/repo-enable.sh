@@ -3,11 +3,11 @@
 set -oue pipefail
 
 dnf5 config-manager setopt \
-    copr:copr.fedorainfracloud.org:ublue-os:packages.enable=1 \
-    updates-archive.enable=1 \
-    fedora.enable=1 \
-    updates.enable=1 \
-    fedora-cisco-enable=1 \
-    terra.enable=1 \
-    fedora-multimedia.enable=1 \
-    terra-mesa.enable=1
+    copr:copr.fedorainfracloud.org:ublue-os:packages.enabled=1 \
+    updates-archive.enabled=1 \
+    fedora.enabled=1 \
+    updates.enabled=1 \
+    fedora-cisco-enabled=1 \
+    terra.enabled=1 \
+    fedora-multimedia.enabled=1 \
+    terra-mesa.enabled=1
