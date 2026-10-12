@@ -6,7 +6,6 @@ base-image: ghcr.io/birdietx/silverblue
 image-version: latest
 
 modules:
-
   - type: script
     scripts:
     - repo-enable.sh
