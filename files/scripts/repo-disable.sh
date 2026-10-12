@@ -7,7 +7,7 @@ dnf5 config-manager setopt \
     updates-archive.enabled=0 \
     fedora.enabled=0 \
     updates.enabled=0 \
-    fedora-cisco-enabled=0 \
+    fedora-cisco-openh264.enabled=0 \
     terra.enabled=0 \
     fedora-multimedia.enabled=0 \
     terra-mesa.enabled=0
